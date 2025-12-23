@@ -1,0 +1,29 @@
+import './ThankYou.css';
+
+function ThankYou() {
+  return (
+    <section id="thankyou" className="thankyou">
+      <div className="thankyou-container">
+        <div className="thankyou-content">
+          <div className="emoji-heart">💜</div>
+          <h2 className="thankyou-title">Thank You!</h2>
+          <p className="thankyou-message">
+            Thank you for taking the time to explore my portfolio. 
+            Your interest means a lot to me!
+          </p>
+          <p className="thankyou-submessage">
+            I'm always excited to connect with fellow creatives, potential collaborators, 
+            and anyone passionate about design and development.
+          </p>
+          <div className="decorative-stars">
+            <span className="star">✨</span>
+            <span className="star">⭐</span>
+            <span className="star">✨</span>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}
+
+export default ThankYou;
