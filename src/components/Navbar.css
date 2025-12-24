@@ -23,16 +23,10 @@
   display: flex;
   align-items: center;
   gap: 0.5rem;
-}
-
-.nav-brand::before {
-  content: 'Ritheeka';
   width: 110px;
   height: 40px;
   background: linear-gradient(135deg, #a855f7 0%, #ec4899 100%);
   border-radius: 8px;
-  display: flex;
-  align-items: center;
   justify-content: center;
   font-weight: 800;
   font-size: 1.2rem;
@@ -103,28 +97,9 @@
   }
 
   .nav-brand {
-    font-size: 1.5rem;
-  }
-
-  .nav-links {
-    display: none;
-  }
-}
-
-
-@media (max-width: 768px) {
-  .navbar {
-    padding: 1rem 1.5rem;
-  }
-
-  .nav-brand {
-    font-size: 1.2rem;
-  }
-
-  .nav-brand::before {
-    width: 35px;
-    height: 35px;
     font-size: 1rem;
+    width: 90px;
+    height: 35px;
   }
 
   .nav-links {
@@ -142,6 +117,12 @@
 }
 
 @media (max-width: 480px) {
+  .nav-brand {
+    width: 80px;
+    height: 32px;
+    font-size: 0.9rem;
+  }
+
   .nav-links a:not(:first-child):not(:last-child) {
     display: none;
   }
