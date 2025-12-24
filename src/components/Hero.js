@@ -1,6 +1,6 @@
 import React from 'react';
 import './Hero.css';
-import { Aboutimg } from '../image/image';
+import { Aboutimg, bg4 } from '../image/image';
 
 function Hero() {
   return (
@@ -9,7 +9,7 @@ function Hero() {
         <div className="hero-content">
           <span className="hero-subtitle">WELCOME TO MY WORLD ✨</span>
           <h1>Hi, I'm <span className="name-highlight">Ritheeka</span></h1>
-          <h2 className="hero-title"><span className="gradient-text">Artist</span> Designer</h2>
+          <h2 className="hero-title"><span className="gradient-text">Artist</span></h2>
           <p className="hero-description">
             Visual artist working with acrylics, watercolors, pastels, and pencil sketches. Focused on clean composition, detail, and original handcrafted work, created for both personal and commissioned projects.
           </p>
@@ -28,7 +28,7 @@ function Hero() {
         </div>
         <div className="hero-image">
           <div className="image-frame">
-            <img src={Aboutimg} alt="Ritheeka - UI/UX Designer" />
+            <img src={bg4} alt="Ritheeka - UI/UX Designer" />
             <div className="floating-icon icon-1">✨</div>
             <div className="floating-icon icon-2">🎨</div>
             <div className="floating-icon icon-3">💡</div>
