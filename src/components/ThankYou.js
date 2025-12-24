@@ -11,10 +11,9 @@ function ThankYou() {
             Thank you for taking the time to explore my portfolio. 
             Your interest means a lot to me!
           </p>
-          <p className="thankyou-submessage">
-            I'm always excited to connect with fellow creatives, potential collaborators, 
-            and anyone passionate about design and development.
-          </p>
+         <p className="thankyou-submessage">
+  I love connecting with fellow artists, art lovers, and anyone who appreciates thoughtful, handmade creativity.
+</p>
           <div className="decorative-stars">
             <span className="star">✨</span>
             <span className="star">⭐</span>
