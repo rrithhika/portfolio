@@ -9,7 +9,7 @@ function Hero() {
         <div className="hero-content">
           <span className="hero-subtitle">WELCOME TO MY WORLD ✨</span>
           <h1>Hi, I'm <span className="name-highlight">Ritheeka</span></h1>
-          <h2 className="hero-title"><span className="gradient-text">Artist</span></h2>
+          <h2 className="hero-title"><span className="gradient-text">Visual Artist</span></h2>
           <p className="hero-description">
             Visual artist working with acrylics, watercolors, pastels, and pencil sketches. Focused on clean composition, detail, and original handcrafted work, created for both personal and commissioned projects.
           </p>
